@@ -9535,4 +9535,18 @@ object-position: center;}
 .fb-page{
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
+.fbshare{
+  display: inline-block;
+  padding: 4px 10px;
+  margin-bottom: 7px;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid rgb(204, 204, 204);
+  color: #2f89fc;
+}
+.fbshare:hover{
+  border: 1px solid #2f89fc;
+
+}
 
