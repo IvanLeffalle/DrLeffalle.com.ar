@@ -7921,11 +7921,11 @@ h3.mb-4 {
   text-transform: capitalize;
   text-decoration: none;
   line-height: 24px;
-  padding-top: 20px
-	  text-align: center;
+  padding-top: 20px;
+	text-align: center;
+}	
 
-  
-}	  .ftco-intro .color-2 {
+.ftco-intro .color-2 {
     background: #21aac4; }
   .ftco-intro .color-3 {
     background: #2f89fc;
