@@ -7540,7 +7540,7 @@ h1, h2, h3, h4, h5,
   .owl-carousel:hover .owl-nav .owl-next, .owl-carousel:focus .owl-nav .owl-next {
     right: -20px; }
  
-/*.owl-carousel.home-slider {
+.owl-carousel.home-slider {
     z-index: 0;
     position: relative; }
     .owl-carousel.home-slider .slider-item {
