@@ -7892,6 +7892,9 @@ transition-duration: 1s;
       .ftco-intro .container {
         margin-top: -100px; } }
   .ftco-intro .color-1 {
+margin: -20px;
+z-index: 1;
+border-radius: 10px;
 background-image: linear-gradient(
   0deg,
   hsl(0deg 0% 13%) 66%,
@@ -7907,6 +7910,9 @@ background-image: linear-gradient(
   hsl(37deg 13% 89%) 100%,
   hsl(37deg 80% 98%) 100%
 );  }
+  .ftco-intro .color-1 h3{
+	  color: white;
+}
 	  .ftco-intro .color-2 {
     background: #21aac4; }
   .ftco-intro .color-3 {
