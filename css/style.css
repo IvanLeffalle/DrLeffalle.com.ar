@@ -7656,9 +7656,14 @@ h1, h2, h3, h4, h5,
 */
 
 /*start my customization*/
-   .hero {
+    .hero {
     z-index: 0;
-    position: relative; }
+    position: relative; 
+    background-image: url('hero-01-01.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}    
 
 
 .hero .slider-item {
