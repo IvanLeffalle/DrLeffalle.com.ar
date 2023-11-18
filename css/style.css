@@ -7659,7 +7659,6 @@ h1, h2, h3, h4, h5,
     .hero {
     z-index: 0;
     position: relative; 
-	      background-position: top center;
 
 
 }    
@@ -7668,10 +7667,9 @@ h1, h2, h3, h4, h5,
 .hero .slider-item {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
   height: 700px;
   position: relative; 
-  background-position: top center !important;  }
+  background-position: bottom center !important;  }
 
  
       .hero .slider-item .overlay {
