@@ -7396,10 +7396,10 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored span {
     border-color: #2f89fc; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: hsla(0,0%,13%,1); }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: hsla(0,0%,13%,1) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
