@@ -8027,7 +8027,7 @@ h3.mb-4 {
     position: relative;
     width: 100px;
     height: 100px;
-    background: #f8fbff;
+    background: #000;
     margin: 0 auto;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -8035,16 +8035,7 @@ h3.mb-4 {
     border-radius: 50%; }
     .services .icon span {
       font-size: 50px;
-      background: #2f89fc;
-      background: -moz-linear-gradient(-45deg, #2f89fc 0%, #2cbcbc 100%);
-      background: -webkit-gradient(left top, right bottom, color-stop(0%, #2f89fc), color-stop(100%, #2cbcbc));
-      background: -webkit-linear-gradient(-45deg, #2f89fc 0%, #2cbcbc 100%);
-      background: -o-linear-gradient(-45deg, #2f89fc 0%, #2cbcbc 100%);
-      background: -ms-linear-gradient(-45deg, #2f89fc 0%, #2cbcbc 100%);
-      background: -webkit-linear-gradient(315deg, #2f89fc 0%, #2cbcbc 100%);
-      background: -o-linear-gradient(315deg, #2f89fc 0%, #2cbcbc 100%);
-      background: linear-gradient(135deg, #2f89fc 0%, #2cbcbc 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f89fc', endColorstr='#00dc94', GradientType=1 );
+      background: #ca9731;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
   .services .media-body h3 {
