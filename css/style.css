@@ -7405,7 +7405,7 @@ h1, h2, h3, h4, h5,
     color: #ca9731; }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: hsla(0,0%,13%,1) !important;
+    color: #ca9731 !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
