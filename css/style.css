@@ -7694,7 +7694,7 @@ h1, h2, h3, h4, h5,
         height: 700px; }
         .hero .slider-item .slider-text h1 {
           font-size: 40px;
-          color: #000;
+          color: #ca9731;
           line-height: 1.2;
           font-weight: 400; }
           @media (max-width: 991.98px) {
@@ -7709,7 +7709,7 @@ h1, h2, h3, h4, h5,
           font-size: 20px;
           line-height: 1.5;
           font-weight: 300;
-          color: hsla(0,0%,13%,1); }
+          color: #fff; }
           .hero .slider-item .slider-text p strong {
             font-weight: 700; }
             .hero .slider-item .slider-text p strong a {
@@ -7823,8 +7823,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #2f89fc;
-    border: 1px solid #2f89fc;
+    background: #ca9731;
+    border: 1px solid #000;
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #2f89fc;
