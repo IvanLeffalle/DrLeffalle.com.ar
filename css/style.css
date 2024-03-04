@@ -9009,7 +9009,9 @@ textarea.form-control {
         }
         
 .block-23 ul {
-  padding: 0; }
+  padding: 0; 
+    text-align: -webkit-center;}
+
   .block-23 ul li, .block-23 ul li > a {
     display: table;
     line-height: 1.5;
