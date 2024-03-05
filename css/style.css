@@ -8419,7 +8419,22 @@ color: #ffff;  }
     .aside-stretch {
 text-align: center;
 
-      background: #2f89fc; }
+      
+    background-image: linear-gradient(
+  0deg,
+  hsl(0deg 0% 13%) 66%,
+  hsl(37deg 1% 19%) 87%,
+  hsl(37deg 1% 26%) 94%,
+  hsl(37deg 1% 33%) 97%,
+  hsl(37deg 1% 41%) 99%,
+  hsl(37deg 1% 48%) 100%,
+  hsl(37deg 2% 56%) 101%,
+  hsl(37deg 3% 64%) 101%,
+  hsl(37deg 4% 72%) 101%,
+  hsl(37deg 6% 81%) 101%,
+  hsl(37deg 13% 89%) 100%,
+  hsl(37deg 80% 98%) 100%
+);  }
       .aside-stretch:after {
         background: transparent;
         display: none; } }
