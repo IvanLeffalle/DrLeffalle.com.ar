@@ -8375,8 +8375,23 @@ color: #ffff;  }
     color: #000; }
 
 .aside-stretch {
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-  z-index: 0; }
+     background-image: linear-gradient(
+  0deg,
+  hsl(0deg 0% 13%) 66%,
+  hsl(37deg 1% 19%) 87%,
+  hsl(37deg 1% 26%) 94%,
+  hsl(37deg 1% 33%) 97%,
+  hsl(37deg 1% 41%) 99%,
+  hsl(37deg 1% 48%) 100%,
+  hsl(37deg 2% 56%) 101%,
+  hsl(37deg 3% 64%) 101%,
+  hsl(37deg 4% 72%) 101%,
+  hsl(37deg 6% 81%) 101%,
+  hsl(37deg 13% 89%) 100%,
+  hsl(37deg 80% 98%) 100%
+);
+	  z-index: 0; }
+
   .aside-stretch:after {
     position: absolute;
     top: 0;
@@ -8384,7 +8399,21 @@ color: #ffff;  }
     bottom: 0;
     content: '';
     width: 360%;
-    background-image: linear-gradient(15deg, #9599E2 0%, #8BC6EC 100%);
+     background-image: linear-gradient(
+  0deg,
+  hsl(0deg 0% 13%) 66%,
+  hsl(37deg 1% 19%) 87%,
+  hsl(37deg 1% 26%) 94%,
+  hsl(37deg 1% 33%) 97%,
+  hsl(37deg 1% 41%) 99%,
+  hsl(37deg 1% 48%) 100%,
+  hsl(37deg 2% 56%) 101%,
+  hsl(37deg 3% 64%) 101%,
+  hsl(37deg 4% 72%) 101%,
+  hsl(37deg 6% 81%) 101%,
+  hsl(37deg 13% 89%) 100%,
+  hsl(37deg 80% 98%) 100%
+);
     z-index: -1; }
   @media (max-width: 767.98px) {
     .aside-stretch {
