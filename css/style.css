@@ -8967,7 +8967,8 @@ textarea.form-control {
   background-position: center center;
   height: 350px;
   position: relative;
-  display: block; }
+  display: block;  border-radius: 25px;
+}
 
 @media (min-width: 768px) {
   .blog-entry {
