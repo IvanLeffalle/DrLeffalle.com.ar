@@ -7845,8 +7845,8 @@ h1, h2, h3, h4, h5,
       color: #000; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #2f89fc;
-        color: #fff; }
+        background: #191919;
+        color: #ca9731 ; }
 
   .btn.btn-outline-white {
     border-color: rgba(255, 255, 255, 0.8);
