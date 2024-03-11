@@ -7666,7 +7666,7 @@ h1, h2, h3, h4, h5,
 .hero .slider-item {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 300px;
   position: relative; 
   background-position: bottom center !important;  }
 
