@@ -7700,8 +7700,15 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
-  position: relative; 
-  background-position: bottom center !important;  }
+  position: relative;
+  background-position: center center !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .heri .slider-item {
+    height: 200px; /* Adjust the height for mobile devices */
+  }
+}
 
         .hero .slider-item .slider-text p {
           font-size: 20px;
