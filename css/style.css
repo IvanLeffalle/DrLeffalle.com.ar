@@ -7696,6 +7696,12 @@ h1, h2, h3, h4, h5,
  @media (max-width: 991.98px){
 	         .hero .slider-item .slider-text p {
 	text-align: center;} }
+.heri .slider-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative; 
+  background-position: bottom center !important;  }
 
         .hero .slider-item .slider-text p {
           font-size: 20px;
