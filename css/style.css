@@ -10100,6 +10100,8 @@ ul.sc_list.sc_list_style_iconed {
       padding-right: 10px; /* Adjust padding for smaller screens */
       padding-top: 30px;
       padding-bottom: 30px;
+	        text-align: center;
+
   }
 
   .section-2.element {
