@@ -10114,3 +10114,24 @@ ul.sc_list.sc_list_style_iconed {
   }
 }
 /*end-19/04/2024*/
+/*20/04/2024*/
+
+.text-about{
+  text-align: center;
+  padding: 30px;
+}
+.text-about h4{
+font-size: 15px;
+}
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .ftco-section-about-text {
+      /* Adjust styles for mobile devices */
+      padding: 20px; /* Example padding adjustment */
+      text-align: center; /* Center text horizontally */
+      /* Add any other necessary adjustments */
+  }
+}
+
