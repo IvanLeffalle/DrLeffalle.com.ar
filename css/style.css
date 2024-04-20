@@ -10091,5 +10091,24 @@ ul.sc_list.sc_list_style_iconed {
   .button-18:disabled {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
   }
+ /* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .section-2 {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      padding-left: 10px; /* Adjust padding for smaller screens */
+      padding-right: 10px; /* Adjust padding for smaller screens */
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
 
+  .section-2.element {
+      padding-right: 0; /* Remove right padding */
+      text-align: center; /* Center text */
+  }
+
+  .button-18 {
+      margin-top: 20px; /* Add some space between button and list */
+  }
+}
 /*end-19/04/2024*/
