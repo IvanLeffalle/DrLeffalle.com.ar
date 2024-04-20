@@ -8175,6 +8175,8 @@ color: #ffff;  }
 
 
 .ftco-quote {
+	  background-color: #ca9731;
+
   padding: 0; }
   .ftco-quote .choose p, .ftco-quote .choose li {
     color: rgba(255, 255, 255, 0.8); }
