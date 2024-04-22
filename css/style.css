@@ -2775,8 +2775,6 @@ input[type="button"].btn-block {
   .btn-group-toggle > .btn-group > .btn input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
-    pointer-events: none; }
-
 .input-group {
   position: relative;
   display: -webkit-box;
@@ -2939,7 +2937,6 @@ input[type="button"].btn-block {
     display: block;
     width: 1rem;
     height: 1rem;
-    pointer-events: none;
     content: "";
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -3885,7 +3882,6 @@ input[type="button"].btn-block {
 
 .page-item.disabled .page-link {
   color: #6c757d;
-  pointer-events: none;
   cursor: auto;
   background-color: #fff;
   border-color: #dee2e6; }
@@ -4369,7 +4365,7 @@ button.close {
   position: relative;
   width: auto;
   margin: 0.5rem;
-  pointer-events: none; }
+}
   .modal.fade .modal-dialog {
     -webkit-transition: -webkit-transform 0.3s ease-out;
     transition: -webkit-transform 0.3s ease-out;
@@ -4408,7 +4404,6 @@ button.close {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -7600,7 +7595,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .slider-item.bread-item {
             background-position: center center !important; } }
         .owl-carousel.home-slider .slider-item.bread-item .overlay {
-          background: ##19191;
+          background: #19191;
 
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f89fc', endColorstr='#00dc94', GradientType=1 ); }
         .owl-carousel.home-slider .slider-item.bread-item .slider-text {
@@ -7658,8 +7653,6 @@ h1, h2, h3, h4, h5,
     .hero {
     z-index: 0;
     position: relative; 
-
-
 }    
 
 .hero .slider-item {
