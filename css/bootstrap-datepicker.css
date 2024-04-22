@@ -137,12 +137,11 @@
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdd49a), to(#fdf59a));
   background-image: -webkit-linear-gradient(top, #fdd49a, #fdf59a);
   background-image: -o-linear-gradient(top, #fdd49a, #fdf59a);
-  background-image: linear-gradient(top, #fdd49a, #fdf59a);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd49a', endColorstr='#fdf59a', GradientType=0);
-  border-color: #fdf59a #fdf59a #fbed50;
+background: linear-gradient(to bottom, #fdd49a, #fdf59a);
+border-color: #fdf59a #fdf59a #fbed50;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   color: #000;
 }
 .datepicker table tr td.today:hover,
@@ -175,7 +174,7 @@
 .datepicker table tr td.today:hover.active,
 .datepicker table tr td.today.disabled.active,
 .datepicker table tr td.today.disabled:hover.active {
-  background-color: #fbf069 \9;
+  background-color: #fbf069;
 }
 .datepicker table tr td.today:hover:hover {
   color: #000;
@@ -202,7 +201,7 @@
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f3c17a), to(#f3e97a));
   background-image: -webkit-linear-gradient(top, #f3c17a, #f3e97a);
   background-image: -o-linear-gradient(top, #f3c17a, #f3e97a);
-  background-image: linear-gradient(top, #f3c17a, #f3e97a);
+background-image: linear-gradient(to bottom, #f3c17a, #f3e97a);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3c17a', endColorstr='#f3e97a', GradientType=0);
   border-color: #f3e97a #f3e97a #edde34;
@@ -256,10 +255,10 @@
   background-image: -o-linear-gradient(top, #b3b3b3, #808080);
   background-image: linear-gradient(top, #b3b3b3, #808080);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3b3b3', endColorstr='#808080', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B3B3B3', endColorstr='#808080', GradientType=0);
   border-color: #808080 #808080 #595959;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -293,7 +292,6 @@
 .datepicker table tr td.selected:hover.active,
 .datepicker table tr td.selected.disabled.active,
 .datepicker table tr td.selected.disabled:hover.active {
-  background-color: #666666 \9;
 }
 .datepicker table tr td.active,
 .datepicker table tr td.active:hover,
